@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:geocoding/geocoding.dart';
+import 'package:weathercast/forecast.dart';
 import 'location.dart';
 
 class Report extends StatefulWidget {
@@ -11,7 +13,7 @@ class Report extends StatefulWidget {
 class _ReportState extends State<Report> {
   @override
   void initState() {
-    getCurrentLocation().then((value) => print(value));
+    print(forcast().then((V) => print(V.address)));
     super.initState();
   }
 
