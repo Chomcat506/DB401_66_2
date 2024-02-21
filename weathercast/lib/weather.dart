@@ -42,5 +42,4 @@ class Weather {
 
   String get condition => _condition[cond];
   String get symbol => _symbol[cond];
-  String get Body => address;
 }
