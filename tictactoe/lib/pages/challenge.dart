@@ -10,6 +10,6 @@ class Challenge extends StatefulWidget {
 class _ChallengeState extends State<Challenge> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Placeholder();
   }
 }
